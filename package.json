@@ -1,0 +1,17 @@
+{
+  "name": "workshop-medjs",
+  "version": "1.0.0",
+  "description": "Workshop MedellinJS ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "medellinjs",
+    "graphQL",
+    "mongoDB"
+  ],
+  "author": "Johan Higuita",
+  "license": "MIT"
+}
