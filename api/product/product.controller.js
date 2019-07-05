@@ -65,9 +65,19 @@ function update(req, res) {
     .catch(handleError(res))
 }
 
+// delete a single product
+function destroy(req, res) {
+  return Product.deleteOne({ _id: req.params.id })
+    .then(handleEntityNotFound(res))
+    .then(respondWithResult(res))
+    .catch(handleError(res))
+}
+
 module.exports = {
   create,
   show,
   index,
   update,
+  destroy,
+
 }
